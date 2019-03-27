@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Operating System Concepts",
+      "author": "Abraham Silberschatz",
+      "desc": "`Operating System Concepts, now in its ninth edition, continues to provide a solid theoretical foundation for understanding operating systems. The ninth edition has been thoroughly updated to include contemporary examples of how operating systems function. The text includes content to bridge the gap between concepts and actual implementations. End-of-chapter problems, exercises, review questions, and programming exercises help to further reinforce important concepts.  A new Virtual Machine provides interactive exercises to help engage students with the material.",
+      "price": "162.98",
+      "numPrice": 162.98,
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51Qy2upM%2BaL._SX327_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Compilers: Principles, Techniques, and Tools",
+      "author": "Alfred V. Aho",
+      "desc": "Compilers: Principles, Techniques and Tools, known to professors, students, and developers worldwide as the 'Dragon Book,' is available in a new edition.  Every chapter has been completely revised to reflect developments in software engineering, programming languages, and computer architecture that have occurred since 1986, when the last edition published.  The authors, recognizing that few readers will ever go on to construct a compiler, retain their focus on the broader set of problems faced in software design and software development.",
+      "price": "173.98",
+      "numPrice": 173.98,
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51Bug87tM%2BL._SX328_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Faust: Parts I & II",
+      "author": "Johann Wolfgang von Goethe",
+      "desc": "Goethe’s two-part dramatic work, Faust, based on a traditional theme, and finally completed in 1831, is an exploration of that restless intellectual and emotional urge which found its fullest expression in the European Romantic movement, to which Goethe was an early and major contributor. ",
+      "price": "8.49",
+      "numPrice": 8.49,
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51lTO7vqfdL._SX331_BO1,204,203,200_.jpg"
+    }
+  ]
