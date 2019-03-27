@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-4" *ngFor="let book of books">
+      <div class="card mb-4 box-shadow">
+        <img class="card-img-top" alt="{{ book.title }}" style="height:50%; width:50%; display:block; margin-top: 20px; margin-left:auto; margin-right:auto;" src="{{ book.imgUrl }}" data-holder-rendered="true">
+        <div class="card-body">
+          <p class="card-text" style="height:96px; overflow:hidden;">{{ book.desc }}</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+            </div>
+            <small class="text-muted">Price: {{ book.price }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

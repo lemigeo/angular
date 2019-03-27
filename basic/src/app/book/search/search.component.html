@@ -1,0 +1,21 @@
+<ng-content></ng-content>
+<div class="container">
+  <mat-form-field>
+    <mat-select placeholder="Caterories"  [(ngModel)]="selectedValue">
+      <mat-option *ngFor="let c of categories" [value]="c.code">
+        {{ c.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+<div class="input-group">
+  <input type="text" class="form-control" [(ngModel)]="keyword" name="keyword" #txtSearch placeholder="Search keyword" (ngModelChange)="txtChanged()" />
+  <div class="input-group-append">
+    <button type="button" class="btn btn-secondary" (click)="findBook(txtSearch.value)">
+      <i class="material-icons">search</i>
+    </button>
+  </div>
+</div>
+<div class="alert alert-light" role="alert">
+    {{ keyword }}
+</div>

@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/61dWUcBJ10L._US230_.jpg');
+    background-size: cover;
+}
