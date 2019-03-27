@@ -28,6 +28,7 @@ import { MovieModule } from "./movie/movie.module";
     MovieModule
   ],
   providers: [],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

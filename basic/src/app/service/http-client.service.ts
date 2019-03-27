@@ -18,5 +18,4 @@ export class HttpClientService {
   getList<T>(url: string): Observable<T[]> {
     return this.http.get<T[]>(url);
   }
-  
 }

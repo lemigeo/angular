@@ -9,7 +9,7 @@
     <p>
         {{ book.desc }}
     </p>
-    <p>Price: {{ book.price }}</p>
+    <p>Price: {{ book.price | bookPrice }}</p>
   </mat-card-content>
   <mat-card-actions>
     <button mat-button type="button" class="btn btn-outline-secondary" [disabled]="book.numPrice >= 20">Buy Now</button>

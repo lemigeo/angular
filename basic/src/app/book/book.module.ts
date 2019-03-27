@@ -8,11 +8,13 @@ import { SearchComponent } from './search/search.component';
 import { DetailComponent } from './detail/detail.component';
 import { ListComponent } from './list/list.component';
 
+import { BookPricePipe } from '../pipe/book-price.pipe';
+
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
-  declarations: [BookMainComponent, SearchComponent, DetailComponent, ListComponent],
+  declarations: [BookMainComponent, SearchComponent, DetailComponent, ListComponent, BookPricePipe],
   imports: [
     CommonModule,
     FormsModule,

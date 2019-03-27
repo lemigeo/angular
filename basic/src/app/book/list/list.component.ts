@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+
 import { HttpClientService } from "../../service/http-client.service";
 import { BookServerConfig, ServerConfig } from "../../config/server-config";
 
@@ -27,7 +28,7 @@ export class ListComponent implements OnInit {
 
   books: IBook[];
   keyword: string;
-
+  
   @Input()
   set setKeyword(data: string) {
     if(data !== null && data !== '') {
